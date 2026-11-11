@@ -18,3 +18,6 @@ npm test       # node:test, no install needed
 | GET | `/notes/:id/export` | Export a note as a gzip archive |
 | GET | `/attachments/:name` | Download an attachment |
 | POST | `/notes/preview` | Render a title template |
+| PATCH | `/settings` | Update user settings |
+| GET | `/link-preview?url=` | Unfurl a pasted link |
+| POST | `/notes/:id/summary` | AI summary of a note |
