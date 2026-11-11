@@ -1,0 +1,16 @@
+{
+  "name": "notes-api",
+  "version": "1.2.0",
+  "description": "Small team notes API",
+  "type": "module",
+  "main": "src/server.js",
+  "engines": { "node": ">=22.5" },
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2"
+  }
+}
